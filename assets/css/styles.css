@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 142;
+    --hue-color: 40;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -308,8 +308,9 @@ img {
     fill: var(--first-color);
 }
 
-.home__blob-img {
+.home__img {
     width: 170px;
+
 }
 
 .home__data {
@@ -390,6 +391,7 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
     width: 200px;
+    height: auto;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
@@ -397,7 +399,7 @@ img {
 
 .about__description {
     text-align: justify;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-1);
 }
 
 .about__buttons {
